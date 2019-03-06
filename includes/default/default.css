@@ -1,0 +1,384 @@
+html, body {
+  background: #C6D8D1 url('background-main.gif') repeat-x;
+}
+
+form {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+img {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  vertical-align:baseline;
+}
+
+a {
+  color: #5a5e5c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00f;
+}
+
+#pagebody {
+  width: 900px;
+  min-height: 800px;
+  margin: 20px auto;
+  -moz-box-shadow: 0 0 15px rgba(127, 127, 127, 0.25);
+  -webkit-box-shadow: 0 0 15px rgba(127, 127, 127, 0.25);
+  -khtml-box-shadow: 0 0 15px rgba(127, 127, 127, 0.25);
+  box-shadow: 0 0 15px rgba(127, 127, 127, 0.25);
+  -moz-border-radius: 40px 40px 10px 10px; 
+  -webkit-border-radius: 40px 40px 10px 10px; 
+  -khtml-border-radius: 40px 40px 10px 10px; 
+  border-radius: 40px 40px 10px 10px; 
+  background: #DCE6E2 url('bg_blockbody.png') repeat-x;
+  padding: 10px;
+}
+
+#mainbody {
+  float: right;
+  width: 720px;
+  padding-top: 1em;
+  position: relative;
+  z-index: 10;
+}
+
+.content {
+  background: #EBF1EE url('bg_blockbody.png') repeat-x;
+  padding: 1em 0 0 10px;
+  margin: 0 -10px 0 0;
+  -moz-border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -khtml-border-radius: 10px 0 0 10px;
+  border-radius: 10px 0 0 10px;
+}
+
+.repostme_ajax {
+  background: #EBF1EE url('bg_blockbody.png') repeat-x;
+  padding: 0 0 10px 5px;
+  margin: -15px 10px 0 0;
+  -moz-border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  -khtml-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+#leftbody {
+  padding-top: 1em;
+  width: 160px;
+  text-align: center;
+}
+
+#repostme_qrcode {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 0.6em;
+  font-family: sans-serif;
+}
+
+#logo {
+  float: left;
+  width: 325px;
+  height: 89px;
+  background-image: url('logo.png');
+  margin: 10px 0 0 40px;
+  display: block;
+}
+
+#logo .text { display: none; }
+
+#logo_link {
+  position: relative;
+  left:0;
+  top: 0;
+  height: 100px;
+  width: 375px;
+  display: block;
+  margin-bottom: -100px;
+}
+
+#logo_link span { display: none; }
+
+
+#topmenu {
+  float: left;
+  margin: 10px 0 0 10px;
+  width: 513px;
+  height: 89px;
+  text-align: right;
+}
+
+#divider {
+  background-image: url('center-divide.png');
+  width: 211px;
+  height: 266px;	
+  margin-bottom: -266px;
+  position: relative;
+  top: 50px;
+  left: 165px;
+  z-index: 0;
+}
+
+#shorturl {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+#shorturl input {
+  font-size: 1em;
+  width: 500px;
+}
+
+#shorturl input.button {
+  width: 200px;
+  cursor: pointer;
+}
+
+#tabs {
+  padding: 0 0 0 5px;
+  margin-bottom: -10px;
+}
+
+#tabs span.btn3d {
+  padding: 0;
+}
+
+#tabs span.btn3d span {
+  width: 150px;
+  display: block;
+  text-align: center;
+  padding: 3px 9px;
+}
+
+#repost_newest, #repost_mine, #repost_favs {
+  display: none;
+}
+
+.clear {
+  clear: both; 
+  font-size: 0;
+}
+
+.repost_feed {
+  font-size: 10pt;
+  font-family: sans-serif;
+  color: #5a5e5c;
+  overflow: hidden;
+  text-align:left;
+  padding-bottom: 2em;
+}
+
+.repost_feed div { overflow: hidden }
+
+.repost_line {
+  color:#888;
+  padding-top: 4px;
+}
+
+.repostme_line_text {
+  font-size:1.3em;
+  line-height:1.1em;
+  margin-left:85px;
+}
+
+.repost_number {
+  color: #f00;
+  background: #5A5E5C url('bg_blockbody.png') repeat-x;
+  width: 56px;
+  height: 45px;
+  padding: 10px 5px 0 5px;
+  border: 1px solid #BAC2BF;
+  float: left;
+  overflow: hidden;
+  margin: 0 0 10px 5px;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.5em;
+  cursor: pointer;
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 2px 2px 2px rgba(127, 127, 127, 0.25);
+  -webkit-box-shadow: 2px 2px 2px rgba(127, 127, 127, 0.25);
+  -khtml-box-shadow: 2px 2px 2px rgba(127, 127, 127, 0.25);
+  box-shadow: 2px 2px 2px rgba(127, 127, 127, 0.25);
+}
+
+.repost_number:hover {
+  background-color: #888;
+  -moz-box-shadow: 2px 2px 2px rgba(255, 127, 127, 0.5);
+  -webkit-box-shadow: 2px 2px 2px rgba(255, 127, 127, 0.5);
+  -khtml-box-shadow: 2px 2px 2px rgba(255, 127, 127, 0.5);
+  box-shadow: 2px 2px 2px rgba(255, 127, 127, 0.5);
+}
+
+.repost_number img {
+  margin: 4px 0 0 0;
+  padding: 0;
+  border: 0;
+}
+
+.repost_number span {
+  font-size: 2em;
+  text-shadow: 2px 2px 2px rgba(127, 127, 127, 0.25);
+}
+
+.repost_number:hover span {
+  text-shadow: 2px 2px 2px rgba(255, 127, 127, 0.5);
+}
+
+.spacer {
+  padding-top: 30px;
+}
+
+.error {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+  color: #f00;
+}
+
+.urltext {
+  color: #ff0000;
+}
+
+.urltext:hover, #standardFeed span.urltext:hover {
+  color: #0000ff
+}
+
+.stats_header {
+  font-size:1.5em;
+  margin:-0.5em 0 0 0.5em;
+  display:block;
+}
+
+.stats_table {
+  margin-top: 1em;
+}
+
+.stats_table th {
+  text-align:right;
+  padding: 3px 1em;
+}
+
+.stats_other {
+  padding-left: 1em;
+  font-size: 1.5em;
+}
+
+.logout { margin-top: 5px; }
+
+
+/*************************************/
+
+
+.btn3d, .btn3d:visited {
+  color: #000;
+  background: #222 url('http://repostme.info/btn3d.png') repeat-x;
+  font-family: arial, sans-serif;
+  display: inline-block;
+  padding: 4px 4px 5px; 
+  text-decoration: none;
+  -moz-border-radius: 7px; 
+  -webkit-border-radius: 7px;
+  -khtml-border-radius: 7px;
+  border-radius: 7px;
+  -moz-box-shadow: 1px 1px 3px rgba(127, 127, 127, 0.25);
+  -webkit-box-shadow: 1px 1px 3px rgba(127, 127, 127, 0.25);
+  -khtml-box-shadow: 1px 1px 3px rgba(127, 127, 127, 0.25);
+  box-shadow: 1px 1px 3px rgba(127, 127, 127, 0.25);
+  text-shadow: 0 -1px 1px rgba(127, 127, 127, 0.25);
+  border: 1px solid #000000;
+  border-color: rgb(255, 255, 255) rgb(0, 0, 0) rgb(0, 0, 0) rgb(255, 255, 255);
+  border-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5) rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+
+.btn3d:hover{
+  background-color: #111;
+  color: #fff;
+}
+
+.small.btn3d, .small.btn3d:visited       { font-size: 11px; }
+
+.btn3d, .btn3d:visited, .medium.btn3d, .medium.btn3d:visited {
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 0 -1px 1px rgba(0.5, 0.5, 0.5, 0.25);
+}
+
+.large.btn3d, .large.btn3d:visited     { font-size: 14px; padding: 8px 14px 9px; }
+
+.whitered.btn3d, .whitered.btn3d:visited {
+  background-color: #e2e7e5;
+  color: #5A5E5C;
+  border-color: #CCD2D0;
+  padding: 4px 0px 5px; 
+}
+
+.whitered.btn3d img {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+
+.whitered.btn3d span, .whitered.btn3d input {
+  border: 1px solid #fff;
+  -moz-border-radius: 6px; 
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  padding: 3px 3px 4px; 
+  cursor: pointer;
+  margin: 0;
+  background: none;
+}
+
+.whitered.btn3d input {
+  margin: -5px 0;
+}
+
+.whitered.btn3d.selected, .whitered.btn3d.selected:visited,
+.whitered.btn3d.selected:hover span, .whitered.btn3d.selected:hover input {
+  color: #00f;
+}
+
+.whitered.btn3d:hover {
+  -moz-box-shadow: 1px 1px 4px rgba(127, 127, 127, 0.5);
+  -webkit-box-shadow: 1px 1px 4px rgba(127, 127, 127, 0.5);
+  -khtml-box-shadow: 1px 1px 4px rgba(127, 127, 127, 0.5);
+  box-shadow: 1px 1px 4px rgba(127, 127, 127, 0.5);
+}
+
+.whitered.btn3d:hover span, .whitered.btn3d:hover input {
+  color: #f00;
+  background-color: rgb(240, 240, 240);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.repostme_bar_replace {
+  display: block;
+  font-size: 1px;
+  color: #EBF1EE;
+  height: 16px;
+}
+
+
+#char_count {
+  float: right;
+  padding-right: 30px;
+  font-size:2em;
+  margin-bottom:-0.2em;
+  color:#888;
+}

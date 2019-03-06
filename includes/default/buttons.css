@@ -1,0 +1,101 @@
+.btn3d, .btn3d:visited {
+  color: #000;
+  background: #222 url('http://img.repost.me/btn3d.png') repeat-x;
+  font-family: arial, sans-serif;
+  display: inline-block;
+  padding: 4px 4px 5px; 
+  text-decoration: none;
+  -moz-border-radius: 7px; 
+  -webkit-border-radius: 7px;
+  -khtml-border-radius: 7px;
+  border-radius: 7px;
+  -moz-box-shadow: 1px 1px 3px rgba(127, 127, 127, 0.25);
+  -webkit-box-shadow: 1px 1px 3px rgba(127, 127, 127, 0.25);
+  -khtml-box-shadow: 1px 1px 3px rgba(127, 127, 127, 0.25);
+  box-shadow: 1px 1px 3px rgba(127, 127, 127, 0.25);
+  text-shadow: 0 -1px 1px rgba(127, 127, 127, 0.25);
+  border: 1px solid #000000;
+  border-color: rgb(255, 255, 255) rgb(0, 0, 0) rgb(0, 0, 0) rgb(255, 255, 255);
+  border-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5) rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+
+.btn3d:hover{
+  background-color: #111;
+  color: #fff;
+}
+
+.btn3d:active              { top: 1px; }
+
+.small.btn3d, .small.btn3d:visited       { font-size: 11px; }
+
+.btn3d, .btn3d:visited, .medium.btn3d, .medium.btn3d:visited {
+  font-size: 14px;
+  font-weight: bold;
+ /* line-height: 1; */
+  text-shadow: 0 -1px 1px rgba(0.5, 0.5, 0.5, 0.25);
+}
+
+.large.btn3d, .large.btn3d:visited     { font-size: 14px; padding: 8px 14px 9px; }
+
+.green.btn3d, .green.btn3d:visited     { background-color: #91bd09; }
+.green.btn3d:hover                     { background-color: #749a02; }
+.blue.btn3d, .blue.btn3d:visited       { background-color: #2daebf; }
+.blue.btn3d:hover                      { background-color: #007d9a; }
+.red.btn3d, .red.btn3d:visited         { background-color: #e33100; }
+.red.btn3d:hover                       { background-color: #872300; }
+.red2.btn3d, .red2.btn3d:visited       { background-color: #ff0000; }
+.red2.btn3d:hover                      { background-color: #bb0000; }
+.magenta.btn3d, .magenta.btn3d:visited { background-color: #a9014b; }
+.magenta.btn3d:hover                   { background-color: #630030; }
+.orange.btn3d, .orange.btn3d:visited   { background-color: #ff5c00; }
+.orange.btn3d:hover                    { background-color: #d45500; }
+.yellow.btn3d, .yellow.btn3d:visited   { background-color: #ffb515; }
+.yellow.btn3d:hover                    { background-color: #fc9200; }
+.purple.btn3d, .purple.btn3d:visited   { background-color: #8C8CB8; }
+.purple.btn3d:hover                    { background-color: #363666; }
+
+.whitered.btn3d, .whitered.btn3d:visited {
+  background-color: #e2e7e5;
+  color: #5A5E5C;
+  border-color: #CCD2D0;
+  padding: 4px 0px 5px; 
+}
+
+.whitered.btn3d img {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+
+.whitered.btn3d span {
+  border: 1px solid #fff;
+  -moz-border-radius: 6px; 
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  padding: 3px 3px 4px; 
+}
+
+.whitered.btn3d.selected, .whitered.btn3d.selected:visited, .whitered.btn3d.selected:hover span {
+  color: #00f;
+}
+
+
+
+.whitered.btn3d:hover {
+  -moz-box-shadow: 1px 1px 4px rgba(127, 127, 127, 0.5);
+  -webkit-box-shadow: 1px 1px 4px rgba(127, 127, 127, 0.5);
+  -khtml-box-shadow: 1px 1px 4px rgba(127, 127, 127, 0.5);
+  box-shadow: 1px 1px 4px rgba(127, 127, 127, 0.5);
+}
+
+.whitered.btn3d:hover span {
+  color: #f00;
+  background-color: rgb(240, 240, 240);
+  background-color: rgba(255, 255, 255, 0.5);
+}

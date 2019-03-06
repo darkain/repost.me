@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<os:openServiceDescription
+    xmlns:os="http://www.microsoft.com/schemas/openservicedescription/1.0">
+    <os:homepageUrl>http://repost.me</os:homepageUrl>
+    <os:display>
+        <os:name>Repost.Me!</os:name>
+        <os:icon>http://repost.me/favicon.ico</os:icon>
+        <os:description>Repost.Me! Quickly shorten a long URL into a tiny web site address and easily generate QR Codes that can be scanned into your cell phone.</os:description>
+    </os:display>
+    <os:activity category="Add">
+        <os:activityAction context="document">
+            <os:execute action="http://repost.me/" method="get">
+                <os:parameter name="url" value="{documentUrl}" type="text" /> 
+            </os:execute>
+        </os:activityAction>
+    </os:activity>
+</os:openServiceDescription> 
